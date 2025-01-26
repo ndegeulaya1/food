@@ -27,63 +27,8 @@
     height: 3rem;
     color: rgb(2, 0, 0);
 }
-.side--bar{
-  position: fixed;
-  top: 0;
-  right: 0;
-  font-size: 40px;
-  height: 100%;
-  width: 200px;
-  background-color: rgb(146, 104, 104);
-display: none;
-  flex-direction: column;
-  z-index: 7;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-left: 60px;
- 
-}
-.side--bar a{
-list-style: none;
-padding: 15px;
-}
-
-.hide--button{
-  display: none;
-}
-
-nav li{
-  list-style: none;
-}
-
-@media(max-width:860px){
-  .hidemobile{
-      display:none;
-  }
-  .hide--button{
-      display: block;
-      color: antiquewhite;
-
-  }
-  .main-nav-list li:not(:first-child){
-    display: none;
- 
-  }
-  .side--bar{
-    width: 80%;
-
-
-}
-
-.main-nav-list a {
-  list-style: none;
-}
-  
-  
-}
-
-@media(max-width:1023px){
-  
+.lnr-apartment:before {
+	content: "\e801";
 }
 @media(max-width:500px){
   .side--bar{
