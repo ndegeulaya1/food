@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    
     box-sizing: border-box;
   }
 
@@ -825,7 +826,8 @@ nav li{
   }
   
   .grid--footer {
-    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .logo-col {
@@ -833,6 +835,7 @@ nav li{
     flex-direction: column;
   }
   
+
   .footer-logo {
     display: block;
     margin-bottom: 3.2rem;
